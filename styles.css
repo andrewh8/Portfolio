@@ -27,3 +27,8 @@ body::before {
 .navBackground {
     background-color: #111827;
 }
+
+.roadmapImg {
+    width: 200px;
+}
+
