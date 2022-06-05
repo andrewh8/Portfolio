@@ -20,7 +20,7 @@ body::before {
     width: 30px;
 }
 
-.finalProjectBG {
+.finalProjectBG, .otherProjectsBG {
     background-color: #101D2D;
 }
 
@@ -32,3 +32,12 @@ body::before {
     width: 200px;
 }
 
+.noBullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.otherProjectPics {
+    height: 100px;
+}
