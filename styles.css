@@ -20,7 +20,7 @@ body::before {
     width: 30px;
 }
 
-.finalProjectBG, .otherProjectsBG {
+.finalProjectBG, .otherProjectsBG, footer {
     background-color: #101D2D;
 }
 
@@ -40,4 +40,8 @@ body::before {
 
 .otherProjectPics {
     height: 100px;
+}
+
+#contact, .contactList {
+    background-color: #e1e6eb;
 }
