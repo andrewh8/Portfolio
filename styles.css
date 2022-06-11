@@ -45,3 +45,9 @@ body::before {
 #contact, .contactList {
     background-color: #e1e6eb;
 }
+
+.smallList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

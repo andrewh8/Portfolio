@@ -49,8 +49,8 @@
       <!-- Final Project -->
       <section class="finalProjectBG text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="finalProject">
         <div class="container">
-            <div class="d-sm-flex  justify-content-between">
-                <div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
                     <h1 class="text-white">Final Project</h1>
                     <p class="lead my-4">
                         Full stack <span class="text-info fw-bolder">Social Media</span> application utilizing React, Javascript, NodeJs, Express, and MongoDB.
@@ -62,17 +62,28 @@
                         <button class="btn btn-primary mx-2 fs-5">Code</button>
                     </a>
                     <div class="fs-4 mt-5 mb-1">Design</div>
-                    <ul>
+                    <ul class="d-flex flex-column align-items-start">
                         <li>REST API</li>
                         <li>MVC Design Pattern</li>
                         <li>JWT Authentication</li>
                         <li>Password Encryption</li>
                     </ul>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid mb-5" src="img/fbLogin.PNG" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-md">
                     <div class="fs-4 mb-1">Features</div>
-                    <ul>
+                    <ul class="d-flex flex-column align-items-start">
+                        <li>Register An Account</li>
+                        <li>Login</li>
+                        <li>Connect with Friends</li>
                         <li>Create, Read, Update, Delete Posts</li>
-                        <li>Request and Accept Friends</li>
                         <li>Search for Users</li>
+                        <li>View User Profiles</li>
+                        <li>Recieve Notifications</li>
                         <li>and more...</li>
                     </ul>
                     <div class="d-flex flex-column justify-content-between">
@@ -88,9 +99,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-75">
-                    <img class="img-fluid d-none d-sm-block mb-5" src="img/fbLogin.PNG" alt="">
-                    <img class="img-fluid d-none d-sm-block mb-5" src="img/fbHome.PNG" alt="">
+                <div class="col-md">
+                    <img class="img-fluid mb-5" src="img/fbHome.PNG" alt="">
+                    <img class="img-fluid mb-5" src="img/fbProfile.png" alt="">
                 </div>
             </div>
         </div>
@@ -99,23 +110,38 @@
     <!-- Development Process -->
     <section class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="finalProject">
         <div class="container">
-            <h1 class="text-center mb-5">Development Process</h1>
-            <div class="d-sm-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-between align-items-center text-center">
-                    <img class="roadmapImg img-fluid w-50 d-none d-sm-block mb-5" src="img/Roadmap.PNG" alt="">
-                    <h3 class="w-50">Jira Roadmap, Product Backlog, Sprints</h3>
+            <h1 class="text-center mb-5"> Final Project Development Process</h1>
+
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid mb-5" src="img/Roadmap.PNG" alt="">
                 </div>
-                <div class="d-flex justify-content-between align-items-center text-center">
-                    <img class="img-fluid w-50 d-none d-sm-block mb-5" src="img/Postman.PNG" alt="">
-                    <h3 class="w-50">API Testing and Documentation</h3>
+                <div class="col-md text-center mb-5">
+                    <h3>Jira Roadmap, Product Backlog, Sprints</h3>
                 </div>
-                <div class="d-flex justify-content-between align-items-center text-center">
-                    <img class="img-fluid w-50 d-none d-sm-block mb-5" src="img/gitWorkFlow.PNG" alt="">
-                    <h3 class="w-50">Proper Git Workflow Linking Branches to Jira Issues</h3>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid mb-5" src="img/Postman.PNG" alt="">
                 </div>
-                <div class="d-flex justify-content-between align-items-center text-center">
-                    <img class="img-fluid w-50 d-none d-sm-block mb-5" src="img/LucidChart.PNG" alt="">
-                    <h3 class="w-50">Thoughtful Architecture Minimizing API Calls</h3>
+                <div class="col-md text-center mb-5">
+                    <h3>API Testing and Documentation</h3>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid mb-5" src="img/gitWorkFlow.PNG" alt="">
+                </div>
+                <div class="col-md text-center mb-5">
+                    <h3>Proper Git Workflow Linking Branches to Jira Issues</h3>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid mb-5" src="img/LucidChart.PNG" alt="">
+                </div>
+                <div class="col-md text-center mb-5">
+                    <h3>Thoughtful Architecture Minimizing API Calls</h3>
                 </div>
             </div>
         </div>
